@@ -1,0 +1,27 @@
+.button {
+    margin: 3rem;
+
+}
+
+a {
+    background: yellow;
+    text-decoration: none;
+    padding: 1.2rem 1.5rem;
+    color: blue;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#one {
+    border: 0.2rem solid rebeccapurple;
+
+}
+
+#two {
+    outline-width: .02rem;
+    outline-style: solid;
+    outline-color: blue;
+    outline: 0.2rem solid red;
+    outline-offset: 10px;
+    outline-offset: -10px;
+}
