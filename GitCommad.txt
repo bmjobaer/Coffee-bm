@@ -1,0 +1,16 @@
+
+
+
+all file add	: git add .
+git commit	: git commit -m "about commit"
+git status	: git status
+git status	: git log --oneline
+last status	: git diff
+git show	: git show id no past
+differance	: git diff id id
+git also show	: git diff --staged
+perment delete	: git rm file name
+
+
+
+
