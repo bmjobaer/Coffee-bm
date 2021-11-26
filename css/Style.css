@@ -6,7 +6,7 @@
 
 div {
     min-height: 100vh;
-    color: red;
+    color: green;
     font-size: 60px;
     display: flex;
     justify-content: center;
@@ -29,9 +29,9 @@ div {
 .small-img {
     background-repeat: space;
     background: url(../Image/Benner\ 3.jpg);
-    background-size: cover;
+    background-size: 100px;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left;
     background-attachment: fixed;
 
 
