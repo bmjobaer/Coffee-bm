@@ -1,50 +1,30 @@
-. {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 div {
-    min-height: 100vh;
-    color: green;
-    font-size: 60px;
+    width: 150px;
+    height: 150px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    margin: 5px;
 }
 
-.big-img {
-    background: green;
-    background: url("../Image/Benner 1.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+.one {
+    background: linear-gradient(red, green);
 }
 
-.small-img {
-    background-repeat: space;
-    background: url(../Image/Benner\ 3.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: left;
-    background-attachment: fixed;
-
-
-
-
+.two {
+    background: linear-gradient(to left, red, green, white, red);
 }
 
-.folder-img {
-    background: url("../Image/Benner 1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-origin: border-box;
-    background-color: blue;
-    /* 068864184775 */
-    background-image: linear-gradient(to right red, yellow);
+.three {
+    background: linear-gradient(102deg, red, green);
+}
 
+.four {
+    background: linear-gradient(to top left, red, green);
+}
 
+.five {
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .5));
+}
 
+.six {
+    background: linear-gradient(to left, rgba(0, 0, 0, .1), rgba(0, 0, 0, .5));
 }
