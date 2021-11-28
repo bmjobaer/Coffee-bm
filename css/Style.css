@@ -43,7 +43,8 @@ div {
     background-origin: border-box;
     background-color: blue;
     /* 068864184775 */
-    background-image: linear-gradient(rgba(76, 199, 221, 0.1), rgb(139, 79, 79,1));
+    background-image: linear-gradient(to right red, yellow);
+
 
 
 }
