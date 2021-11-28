@@ -25,7 +25,7 @@ div {
 .small-img {
     background-repeat: space;
     background: url(../Image/Benner\ 3.jpg);
-    background-size: 100px;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: left;
     background-attachment: fixed;
@@ -42,5 +42,8 @@ div {
     background-position: center;
     background-origin: border-box;
     background-color: blue;
+    /* 068864184775 */
+    background-image: linear-gradient(rgba(76, 199, 221, 0.1), rgb(139, 79, 79,1));
+
 
 }
