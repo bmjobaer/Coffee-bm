@@ -1,27 +1,24 @@
-/* Media Queries
-Responsive Design
-min-width:--- starting from
-max-width:--- up to
-mobile first */
+/*pseudo elements:: before :: after CONTENT not element
+content:'' --- required
+img--- does not work */
 
 
 
-body {
-    background: yellow;
+
+p::before {
+    content: "hello ";
+    display: block;
+    background: black;
+    font-weight: bold;
+    font-size: 2rem;
+    color: red;
 }
 
-.banner {
-    background: blue;
+P::after {
+    content: " End";
+    display: block;
+    background: red;
+    font-weight: bold;
+    font-size: 2rem;
+    color: blue
 }
-
-h1 {
-    color: white;
-    text-align: center;
-    text-decoration: underline;
-    text-transform: capitalize;
-}
-
-@media screen and (min-width:576px) {
-    body {
-        background: red;
-    }
