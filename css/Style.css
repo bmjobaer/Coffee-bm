@@ -1,17 +1,35 @@
-
-
-
-.banner{
-border: 5px solid red;
-padding:10px;
-overflow: hidden;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.one{
-    float: right;
-    margin-left: 20px;
-    border: 3px solid red;
-    border-radius: 50px;
+div {
+    float: left;
+    height: 200px;
+    width: 33.33%;
+}
+
+.one {
+    background: red;
 
 }
 
+.two {
+    background: blue;
+
+}
+
+.three {
+    background: green;
+    
+}
+
+.four {
+    background: green;
+    
+}
+
+h1{
+    clear: both;
+}
