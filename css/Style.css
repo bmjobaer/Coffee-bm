@@ -1,43 +1,17 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-div {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-size: 60px;
-    color: orange;
-}
-
-.call {
-    background: radial-gradient(rgba(255,0,0, 0.5), rgba(0, 0,0, 0.5)), url(..//Image/IMG_0003.jpg) center/cover no-repeat fixed;
-}
-
-
-.banner {
-    background: url("../Image/Benner\ 1.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: right;
-    background-attachment: fixed;
-}
-
-.header {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Image/Benner\ 1.jpg") center/cover no-repeat fixed;
-
-}
-
-.colorzilla {
-    background: rgb(95, 227, 255);
-    background: radial-gradient(circle, rgba(95, 227, 255, 0.5) 0%, rgba(253, 237, 12, 0.7) 50%, rgba(0, 212, 255, 0.4) 100%), url("../Image/Benner\ 1.jpg") center/cover no-repeat fixed;
-}
 
 
 .banner{
-    background: linear-gradient(rgba(50,0,0,0.5),blue), url("..//Image/Benner.jpg") center/cover no-repeat fixed;
+border: 5px solid red;
+padding:10px;
+overflow: hidden;
 }
+
+.one{
+    float: right;
+    margin-left: 20px;
+    border: 3px solid red;
+    border-radius: 50px;
+
+}
+
