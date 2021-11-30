@@ -1,17 +1,17 @@
-/* hover*/
+/* link :visited :hover :active*/
 
 
 
-p:hover{
-    font-size: 1.5rem;
+a:link{
+    color:aqua;
+}
+
+a:visited{
     color:red;
 }
-
-.header:hover{
-    background:blue;
-    color: white;
-}
-
 a:hover{
-    text-decoration: none;
+    color:green;
+}
+a:active{
+    color:black;
 }
