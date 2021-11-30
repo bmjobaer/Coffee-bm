@@ -1,44 +1,24 @@
-div {
-    width: 60vw;
-    margin: 100px auto;
-    position: relative;
+/* basic selector */
+
+
+
+* {
+    color: red;
 }
 
-img {
-    width: 100%;
-    display: block;
+#heading {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: blue;
 }
 
-div::before {
-    content: "";
-    border: 2px solid red;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    box-sizing: border-box;
-    top: -40px;
-    left: -40px;
-    z-index: -1;
-    transition: all 0.2s linear;
-
-
+.heading {
+    font-size: 30px;
+    text-transform: capitalize;
+    color: green;
 }
 
-div::after {
-    content: "";
-    background: grey;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    box-sizing: border-box;
-    top: -20px;
-    left: -20px;
-    z-index: -2;
-    transition: all 0.1s linear;
-}
-
-div:hover::before,
-div:hover::after {
-    top: 0;
-    left: 0;
+p {
+    font-size: 20px;
+    letter-spacing: 20px;
 }
