@@ -11,17 +11,17 @@ div {
 
 .one {
     background: red;
-    transform: translateX(50%);
+    transform: scaleX(.5);
 }
 
 .two {
     background: green;
-    transform: translateY(30px);
+    transform: scaleY(3);
 }
 
 .three {
     background: blue;
-    /* transform: translate(100px); */
-    transform: translate(200px, 300px);
-
+    transform: scale(0.5, 0.5);
+    
 }
+
