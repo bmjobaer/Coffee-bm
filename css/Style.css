@@ -1,4 +1,6 @@
-/* transform : translate(), scale(), rotate(), skew()
+/* transition: change over time, 
+transition-property:
+transition-duration, 
 */
 
 
@@ -8,24 +10,26 @@ div {
     height: 200px;
     display: inline-block;
 }
+div:hover{
+    background:orange;
+}
 
 .one {
     background: red;
-    transform: skewX(-10deg)
 }
 
 .two {
     background: green;
-   transform: skewY(-10deg);
 }
 
 .three {
     background: blue;
-    transform: skew(45deg);
+    transition-property: background, border-radius;
+    transition-duration: 1s,1s;
 
 }
 
-.three:hover {
-    background: black;
-    transform: skewY(45deg);
+.three:hover{
+    border-radius: 50%;
 }
+
