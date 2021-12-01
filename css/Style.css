@@ -11,19 +11,17 @@ div {
 
 .one {
     background: red;
-    transform: scaleX(.5);
+    transform: skewX(-10deg)
 }
 
 .two {
     background: green;
-    transform: scaleY(1);
-    transform: rotateZ(45deg);
-
+   transform: skewY(-10deg);
 }
 
 .three {
     background: blue;
-    transform: skewX(45deg);
+    transform: skew(45deg);
 
 }
 
