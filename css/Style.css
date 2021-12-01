@@ -1,36 +1,43 @@
-/* transition:change over time
-transition-delay:
-shorthand 
+/* how the transition takes place transition-timing-funnction: transition:all 3s here 5s:
+ease= default
+ease= slow stat, fast, slow en
+linear = same speed tart to end 
+ease-in= slow start
+ease-out= slow end
+ease-in-out= slow start, fast, slow end
 */
 
-
-
 div {
-    width: 200px;
-    height: 200px;
-    display: inline-block;
-}
-
-
-.one {
-    background: red;
-}
-
-.two {
-    background: green;
-}
-
-.three {
+    width: 100px;
+    height: 100px;
     background: blue;
-    transition: all 1s 1s;
-    
-    
-    
-    /* background 3s 2s, border-radius 3s 2s;  */
+    color: yellow;
+    margin: 15px;
+    transition: all 1s;
 }
 
-.three:hover{
-    border-radius: 50%;
-    background:coral;
+div:hover {
+    transform: translateX(300px);
 }
 
+.ease {
+    /* transition: all 2s ease; */
+    transition-timing-function: ease;
+}
+
+.linear {
+    transition-timing-function: linear;
+}
+
+.ease-in {
+    transition-timing-function: ease-in;
+}
+
+.ease-out {
+    transition-timing-function: ease-out;
+
+}
+
+.ease-in-out {
+    transition-timing-function: ease-in-out;
+}
