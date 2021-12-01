@@ -1,5 +1,4 @@
-/* transiton 0=100%
-Animation 0 1% 2% .... 100%
+/* animation-fill-mode:what values are applied by the animation outside the time it is executing
 */
 
 
@@ -9,39 +8,36 @@ div {
     height: 100px;
     margin: 10px;
     background: red;
-    transition: all 2s;
+
 }
 
-.transiiton:hover {
-    background: green;
-    transform: translateX(100px);
-}
+
 
 .animation {
-    background: blue;
-    animation: move;
-    animation-duration: 5s;
+
     animation-iteration-count: infinite;
+    animation: move 5s 2;
+    animation-fill-mode:forwards ;
 
 }
 
 @keyframes move {
     0% {
-        transform: translateX(20px);
+        opacity: 0;
+    }
+
+    25% {
+        transform: translateX(200px);
+        opacity: 0.25;
     }
 
     50% {
-        transform: translateX(100px);
-        background: red;
-    }
-
-    75% {
-        transform: translateX(-200px);
-        background: yellow;
+        transform: translateX(-100px);
+        opacity: 1;
     }
 
     100% {
         transform: translateX(20px);
-        background: green;
+        opacity: 0.5;
     }
 }
